@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'shareregular';
+    src: url('../font/share-regular-webfont.eot');
+    src: url('../font/share-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../font/share-regular-webfont.woff2') format('woff2'), url('../font/share-regular-webfont.woff') format('woff'), url('../font/share-regular-webfont.ttf') format('truetype'), url('../font/share-regular-webfont.svg#shareregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* reset browser styles */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1.2;
+}
+
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* end reset browser styles */
+
+.containerGroups {
+    display: grid;
+    grid-template-columns: 80% auto;
+    grid-template-rows: 6% 28% 5% 47% auto;
+    background-color: #303030;
+}
+
+#banner1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: #F0F0F0;
+    font-family: 'Special Elite', cursive;
+    font-size: 75px;
+    text-shadow: 2px 2px 5px #000000;
+    padding: 20px;
+    background: url("../images/poppy.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 150px;
+    font-size: 75px;
+}
+
+#banner5 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: url("../images/boko.png");
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    font-size: 75px;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    text-shadow: 6px 6px 12px #000000;
+}
+
+body {
+    background-color: #303030;
+    height: 950px;
+    min-width: 950px;
+}
+
+#histo {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding-top: 20px;
+    font-family: 'Special Elite', cursive;
+    color: #F0F0F0;
+    font-size: 40px;
+}
+
+h3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-family: 'Special Elite', cursive;
+    color: #F0F0F0;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 40px;
+    float: right;
+    background-color: #303030;
+}
+
+#banner4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: url("../images/yamaguchi.jpg");
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    font-size: 75px;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    text-shadow: 3px 3px 6px #000000;
+}
+
+h4 {
+    font-family: 'Special Elite', cursive;
+    background-color: #303030;
+    color: #F0F0F0;
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.menu {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Special Elite', cursive;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 120px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #8B0000;
+}
+
+.active {
+    font-size: 24px;
+    font-weight: bolder;
+    text-shadow: 7px 7px 7px #000000;
+}
+
+#banner2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: url("../images/cv.jpg");
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    font-size: 75px;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    text-shadow: 3px 3px 6px #000000;
+}
+
+#banner3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: url("../images/vory.jpg");
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    font-size: 75px;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    text-shadow: 3px 3px 6px #000000;
+}
+
+.history {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: #303030;
+    color: white;
+    font-family: 'Overpass Mono', monospace;
+    color: #F0F0F0;
+    padding: 80px;
+    display: block;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.titles {
+    font-family: 'shareregular';
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+}
+
+.facts {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 18px;
+    color: white;
+    background-color: #303030;
+    display: block;
+    line-height: 1.5;
+    padding: 20px;
+    text-align: left;
+    float: right;
+}
+
+.leaders {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    background-color: #303030;
+    float: left;
+    padding: 40px;
+}
+
+.leaders img:not(:first-child) {
+    margin-left: 35px;
+}
+
+.label {
+    color: white;
+    font-family: 'shareregular';
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.home {
+    margin: 50px;
+    margin-left: 350px;
+    background-color: none;
+    margin-top: 80px;
+}
+
+.home a {
+    font-family: 'Overpass Mono', monospace;
+    font-size: 22px;
+    color: white;
+    text-decoration: underline;
+}

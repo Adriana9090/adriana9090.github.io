@@ -1,0 +1,271 @@
+/* reset browser styles */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1.2;
+}
+
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* end reset browser styles */
+
+body {
+    background-color: #303030;
+    max-width: 960px;
+    width: 960px;
+    line-height: 2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Overpass Mono', monospace;
+    color: white;
+    font-size: 22px;
+    margin: 30px;
+}
+
+h2 {
+    font-family: 'Overpass Mono', monospace;
+    color: white;
+    font-size: 30px;
+    margin: 300px;
+}
+
+h3 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    margin-bottom: 80px;
+}
+
+h4 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    margin: 30px;
+}
+
+
+/*subscribe button class & pseudoclasses in Contact page & Subscribe page*/
+
+.sub {
+    font-family: 'Special Elite', cursive;
+    background-color: #8B0000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.sub:hover {
+    background-color: white;
+    color: #8B0000;
+}
+
+.sub:active {
+    color: black;
+}
+
+.sub:visited {
+    color: rgb(192, 192, 192);
+}
+
+
+/*class for form in contact page*/
+
+.form {
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    line-height: 2;
+    margin-left: 250px;
+    padding: 30px;
+    height: 350px;
+    width: 400px;
+    background-color: #383838;
+}
+
+
+/*class for form in subscribe page*/
+
+.miniform {
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    align-content: center;
+    padding: 100px;
+    height: 250px;
+    width: 650px;
+    background-color: #383838;
+}
+
+
+/*class for receive newsletter text*/
+
+.subscribe {
+    font-family: 'Special Elite', cursive;
+    font-size: 35px;
+    color: white;
+    margin: 50px;
+    background-color: none;
+}
+
+
+/*class for Back to Home Page link*/
+
+.home {
+    margin: 50px;
+    margin-left: 350px;
+    background-color: none;
+    margin-top: 80px;
+}
+
+.home a {
+    font-family: 'Overpass Mono', monospace;
+    font-size: 22px;
+    color: white;
+    text-decoration: underline;
+}
+
+
+/*class for img in About page*/
+
+.adri {
+    margin: 10px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.col {
+    position: relative;
+    width: 650px;
+    height: 300px;
+    margin: 250px;
+    margin-top: 60px;
+    font-family: 'Special Elite', cursive;
+    line-height: 1.5;
+    font-size: 22px;
+    color: white;
+}
